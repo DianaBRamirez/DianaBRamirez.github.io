@@ -31,8 +31,8 @@
             console.log('Email:', email);
             if ((usuario.toLowerCase() === 'diana' && email.toLowerCase() === 'dianacorreo@gmail.com') ||
                 (usuario.toLowerCase() === 'juan' && email.toLowerCase() === 'juan@gmail.com')) {
-                console.log('Redirigiendo a bienvenida.php');
-                window.location.href = 'bienvenida.php';
+                console.log('Redirigiendo a bienvenida.html');
+                window.location.href = 'bienvenida.html';
             } else {
                 alert('Usuario sin acceso');
                 return false;
